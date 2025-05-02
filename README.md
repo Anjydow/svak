@@ -108,22 +108,22 @@
     <h2>Necklaces</h2>
     <div class="products">
       <div class="product">
-        <img src="necklace2.jpg" alt="Model 1" />
+        <add necklace2.jpg alt="Model 1" />
         <h3>BULKY FLOWER SET</h3>
         <p>Rs 700</p>
       </div>
       <div class="product">
-        <img src="necklace3.jpg" alt="Model 2" />
+        <add necklace3.jpg  alt="Model 2" />
         <h3>DIAMOND SUNFLOWER</h3>
         <p>Rs 450</p>
       </div>
       <div class="product">
-        <img src="necklace4.jpg" alt="Model 3" />
+        <add necklace4.jpg alt="Model 3" />
         <h3>GOLD HEART & DIAMOND  </h3>
         <p>Rs 900</p>
       </div>
       <div class="product">
-        <img src="necklace5.jpg" alt="Model 4" />
+        <add necklace5.jpg alt="Model 4" />
         <h3>GOLD BUTTERFLIES</h3>
         <p>Rs 900</p>
       </div>
@@ -135,22 +135,22 @@
     <h2>Keychains</h2>
     <div class="products">
       <div class="product">
-        <img src="keychain1.jpg" alt="Model 1" />
+        <add keychain1.jpg alt="Model 1" />
         <h3>BUTTERFLY & FLOWER</h3>
         <p>Rs 250</p>
       </div>
       <div class="product">
-        <img src="keychain2.jpg" alt="Model 2" />
+        <add keychain2.jpg alt="Model 2" />
         <h3>SILVER & FLOWER</h3>
         <p>Rs 180</p>
       </div>
       <div class="product">
-        <img src="keychain3.jpg" alt="Model 3" />
+        <add keychain3.jpg alt="Model 3" />
         <h3>SILVER HEART</h3>
         <p>Rs 140</p>
       </div>
       <div class="product">
-        <img src="keychain4.jpg" alt="Model 4" />
+        <add keychain4.jpg alt="Model 4" />
         <h3>SILVER ROUND</h3>
         <p>Rs 140</p>
       </div>
@@ -162,12 +162,12 @@
     <h2>Bags</h2>
     <div class="products">
       <div class="product">
-        <img src="bag1.jpg" alt="Model 1" />
+        <add bag1.jpg alt="Model 1" />
         <h3>BEACH TOTE</h3>
         <p>Rs 550</p>
       </div>
       <div class="product">
-        <img src="bag2.jpg" alt="Model 2" />
+        <add bag2.jpg alt="Model 2" />
         <h3>FLORAL GRANDMA</h3>
         <p>Rs 725</p>
       </div>
@@ -179,7 +179,7 @@
     <h2>Teddy Bear</h2>
     <div class="products">
       <div class="product">
-        <img src="teddy.jpg" alt="Teddy Bear" />
+        <add teddy.jpg alt="Teddy Bear" />
         <h3>SUPPORT TEDDY</h3>
         <p>Rs 300</p>
       </div>
@@ -191,7 +191,7 @@
     <h2>Mirror</h2>
     <div class="products">
       <div class="product">
-        <img src="pocketmirror.jpg" alt="Mirror" />
+        <add pocketmirror.jpg alt="Mirror" />
         <h3>POCKET MIRROR</h3>
         <p>Rs 750</p>
       </div>
