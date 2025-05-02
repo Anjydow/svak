@@ -1,142 +1,209 @@
-# svak
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bella Accessories | Stylish Jewelry & More</title>
-    <style>
-        /* Modern, clean styling */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f9f3f0;
-            color: #333;
-        }
-        header {
-            background: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            padding: 15px 0;
-            text-align: center;
-        }
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #d4a373;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-        }
-        .hero {
-            background: url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 48px;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-        }
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 30px;
-        }
-        .product-card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin: 15px;
-            width: 250px;
-            overflow: hidden;
-            transition: transform 0.3s;
-        }
-        .product-card:hover {
-            transform: translateY(-5px);
-        }
-        .product-img {
-            height: 200px;
-            background: #eee;
-            background-size: cover;
-            background-position: center;
-        }
-        .product-info {
-            padding: 15px;
-        }
-        .price {
-            font-weight: bold;
-            color: #d4a373;
-            font-size: 18px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: white;
-        }
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 32px; }
-            .product-card { width: 100%; }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SVAK | Accessories</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      background-color: #f8f8f8;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      color: #b00020;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      padding: 1rem;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      font-size: 1.1rem;
+      margin: 0.5rem 0 0.2rem;
+    }
+
+    .product p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">Bella Accessories</div>
-        <nav>
-            <a href="#shop">Shop</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h1>Handcrafted Jewelry & Accessories</h1>
-    </section>
+  <header>
+    <h1>SVAK</h1>
+    <p> Accessories from Mauritius</p>
+  </header>
 
-    <section id="shop" class="products">
-        <!-- Product 1 -->
-        <div class="product-card">
-            <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');"></div>
-            <div class="product-info">
-                <h3>Gold Pearl Necklace</h3>
-                <p>Elegant and timeless.</p>
-                <p class="price">$29.99</p>
-                <button>Add to Cart</button>
-            </div>
-        </div>
-        <!-- Product 2 -->
-        <div class="product-card">
-            <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');"></div>
-            <div class="product-info">
-                <h3>Silver Hoop Earrings</h3>
-                <p>Minimalist and chic.</p>
-                <p class="price">$19.99</p>
-                <button>Add to Cart</button>
-            </div>
-        </div>
-        <!-- Product 3 -->
-        <div class="product-card">
-            <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');"></div>
-            <div class="product-info">
-                <h3>Leather Crossbody Bag</h3>
-                <p>Stylish and practical.</p>
-                <p class="price">$49.99</p>
-                <button>Add to Cart</button>
-            </div>
-        </div>
-    </section>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
 
-    <footer>
-        <p>&copy; 2024 Bella Accessories. All rights reserved.</p>
-    </footer>
+  <!-- Necklaces -->
+  <section class="section">
+    <h2>Necklaces</h2>
+    <div class="products">
+      <div class="product">
+        <img src="necklace2.jpg" alt="Model 1" />
+        <h3>BULKY FLOWER SET</h3>
+        <p>Rs 700</p>
+      </div>
+      <div class="product">
+        <img src="necklace3.jpg" alt="Model 2" />
+        <h3>DIAMOND SUNFLOWER</h3>
+        <p>Rs 450</p>
+      </div>
+      <div class="product">
+        <img src="necklace4.jpg" alt="Model 3" />
+        <h3>GOLD HEART & DIAMOND  </h3>
+        <p>Rs 900</p>
+      </div>
+      <div class="product">
+        <img src="necklace5.jpg" alt="Model 4" />
+        <h3>GOLD BUTTERFLIES</h3>
+        <p>Rs 900</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keychains -->
+  <section class="section">
+    <h2>Keychains</h2>
+    <div class="products">
+      <div class="product">
+        <img src="keychain1.jpg" alt="Model 1" />
+        <h3>BUTTERFLY & FLOWER</h3>
+        <p>Rs 250</p>
+      </div>
+      <div class="product">
+        <img src="keychain2.jpg" alt="Model 2" />
+        <h3>SILVER & FLOWER</h3>
+        <p>Rs 180</p>
+      </div>
+      <div class="product">
+        <img src="keychain3.jpg" alt="Model 3" />
+        <h3>SILVER HEART</h3>
+        <p>Rs 140</p>
+      </div>
+      <div class="product">
+        <img src="keychain4.jpg" alt="Model 4" />
+        <h3>SILVER ROUND</h3>
+        <p>Rs 140</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bags -->
+  <section class="section">
+    <h2>Bags</h2>
+    <div class="products">
+      <div class="product">
+        <img src="bag1.jpg" alt="Model 1" />
+        <h3>BEACH TOTE</h3>
+        <p>Rs 550</p>
+      </div>
+      <div class="product">
+        <img src="bag2.jpg" alt="Model 2" />
+        <h3>FLORAL GRANDMA</h3>
+        <p>Rs 725</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teddy Bear -->
+  <section class="section">
+    <h2>Teddy Bear</h2>
+    <div class="products">
+      <div class="product">
+        <img src="teddy.jpg" alt="Teddy Bear" />
+        <h3>SUPPORT TEDDY</h3>
+        <p>Rs 300</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mirror -->
+  <section class="section">
+    <h2>Mirror</h2>
+    <div class="products">
+      <div class="product">
+        <img src="pocketmirror.jpg" alt="Mirror" />
+        <h3>POCKET MIRROR</h3>
+        <p>Rs 750</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 SVAK Mauritius. All rights reserved.
+  </footer>
+
 </body>
 </html>
+
+
+
