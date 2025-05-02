@@ -108,7 +108,7 @@
     <h2>Necklaces</h2>
     <div class="products">
       <div class="product">
-        <add necklace2.jpg alt="Model 1" />
+        < add necklace2.jpg alt="Model 1" />
         <h3>BULKY FLOWER SET</h3>
         <p>Rs 700</p>
       </div>
